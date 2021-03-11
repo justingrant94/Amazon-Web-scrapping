@@ -37,7 +37,7 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('justingrant373@gmail.com', 'Cameronjonas2')
+    server.login('justingrant373@gmail.com', '2')
 
     subject = 'Price Fell down!'
     body = 'Check the amazon link https://www.amazon.co.uk/Apple-MacBook-13-inch' \
